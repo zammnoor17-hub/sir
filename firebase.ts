@@ -5,13 +5,13 @@ import { initializeFirestore, persistentLocalCache, persistentMultipleTabManager
 
 // Konfigurasi Firebase Kapten
 export const firebaseConfig = {
-  apiKey: "AIzaSyAsiPN8v3bsB2GAUYb5l8W6TsU9IUv1iA4",
-  authDomain: "kasir-kapten.firebaseapp.com",
-  projectId: "kasir-kapten",
-  storageBucket: "kasir-kapten.firebasestorage.app",
-  messagingSenderId: "16142572128",
+  apiKey: "AIzaSyBpVwn1uoWl1vs8lqQsvtkONmsdNUO7-RQ",
+  authDomain: "azaza-50107.firebaseapp.com",
+  projectId: "azaza-50107",
+  storageBucket: "azaza-50107.firebasestorage.app",
+  messagingSenderId: "311453488260",
   appId: "1:16142572128:web:6d3cc286e16b518dfec105",
-  databaseURL: "https://kasir-kapten-default-rtdb.firebaseio.com"
+  databaseURL: "https://azaza-50107-default-rtdb.firebaseio.com"
 };
 
 const app = initializeApp(firebaseConfig);
