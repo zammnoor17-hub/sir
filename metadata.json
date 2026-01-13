@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Copy of Copy of Copy of Warung Kapten POS",
+  "description": "A comprehensive restaurant Point of Sale system for Warung Kapten featuring real-time synchronization, owner/cashier roles, and detailed sales reporting.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
