@@ -11,7 +11,6 @@ export const firebaseConfig = {
   storageBucket: "azaza-50107.firebasestorage.app",
   messagingSenderId: "311453488260",
   appId: "1:311453488260:web:dc05f760d871f118789ed1",
-  databaseURL: "https://azaza-50107-default-rtdb.firebaseio.com"
 };
 
 const app = initializeApp(firebaseConfig);
