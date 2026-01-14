@@ -371,8 +371,8 @@ const CashierDesk: React.FC = () => {
         <div className="print-only receipt mx-auto text-black bg-white">
           <div className="text-center mb-4">
             <h2 className="text-xl font-black">WARUNG KAPTEN</h2>
-            <p className="text-[10px]">Jl. Dermaga No. 42, Pelabuhan</p>
-            <p className="text-[10px]">Telp: 0812-3456-7890</p>
+            <p className="text-[10px]">Kp. Blok Lame, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810 </p>
+            <p className="text-[10px]">Telp: 0858-1913-1613</p>
           </div>
           <div className="border-t border-dashed border-black pt-2 mb-2 text-[10px]">
             <p className="flex justify-between"><span>No:</span> <span>#{showReceipt.id.slice(-6).toUpperCase()}</span></p>
