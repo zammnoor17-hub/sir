@@ -15,9 +15,10 @@ export interface UserProfile {
 export interface MenuItem {
   id: string;
   name: string;
-  price: number;
+  price: number; // Harga Normal
+  priceGrab: number; // Harga GrabFood
+  priceGojek: number; // Harga GojekFood
   category: string;
-  imageUrl?: string;
 }
 
 export interface Category {
@@ -32,15 +33,18 @@ export interface OrderItem {
   quantity: number;
 }
 
+export type OrderPlatform = 'NORMAL' | 'GRAB' | 'GOJEK';
+
 export interface Transaction {
   id: string;
   customerName: string;
   items: OrderItem[];
   total: number;
+  platform: OrderPlatform;
   paymentMethod: 'CASH' | 'QRIS';
   amountPaid: number;
   change: number;
-  timestamp: any; // Firebase Timestamp
+  timestamp: any;
   cashierId: string;
   cashierName: string;
 }
